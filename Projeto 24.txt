@@ -1,0 +1,62 @@
+1 - package br.com.banco.emprestimo;
+
+public class ModalidadeEmprestimo {
+    private String nomeCliente;
+    private float valorEmprestimo;
+    
+    
+    public String getCliente(){
+        
+        return this.nomeCliente;
+        
+    }
+    public void setCliente(String cliente){
+        this.nomeCliente = cliente;
+    }
+    public float getvalorEmprestimo(){
+        
+        return this.valorEmprestimo;
+        
+    }
+    public void setvalorEmprestimo(float valor){
+        this.valorEmprestimo = valor;
+    }
+     
+    }
+    public void empconcedido(){
+        System.out.println("Cliente: " +this.nomeCliente +" valor do emprestimo: " +this.valorEmprestimo);
+    }
+}
+
+2 - package br.com.banco.saldo;
+
+public class Saldo {
+    private String nomeCliente;
+    private float valorSaldo;
+    
+    
+    public String getCliente(){
+        
+        return this.nomeCliente;
+        
+    }
+    public void setCliente(String cliente){
+        this.nomeCliente = cliente;
+    }
+    public float getvalorSaldo(){
+        
+        return this.valorSaldo;
+        
+    }
+    public void setvalorSaldo(float valor){
+        this.valorSaldo = valor;
+    }
+     
+    }
+    public void empconcedido(){
+        System.out.println("Cliente: " +this.nomeCliente +" seu saldo é " +this.valorSaldo);
+
+
+
+
+
